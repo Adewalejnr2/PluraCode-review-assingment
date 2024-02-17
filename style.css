@@ -9,6 +9,9 @@
     padding: 0 12px;
     margin-top: 2rem;
 }
+body {
+    background-color: lightblue;
+}
 .card {
     display: flex;
     align-items: center;

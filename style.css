@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box  ;
+}
+.box {
+    border: 1px solid black;
+    margin: 3rem 2rem;
+    padding: 0 12px;
+    margin-top: 2rem;
+}
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding: 1rem;
+}
+.title {
+    margin: 2rem;
+}
+.card img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    
+}
+
+.person {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.person-details {
+ display: flex;   
+ align-items: baseline;
+ flex-direction: column;
+}
+.person-name {
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.rating {
+    display: flex;
+    gap: 5px;
+}
+.star {
+    color: orange;
+}
+.comment {
+    flex-basis: 50%;
+}
+.card:last-child {
+    border-bottom: none;
+}
